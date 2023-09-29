@@ -1,0 +1,61 @@
+.job {
+    &__title {
+        color: #FFF;
+        font-family: "Libre Franklin";
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 2.4px;
+        margin-bottom: 30px;
+
+        & span {
+            color: #FF5C00;
+            font-family: "Libre Franklin";
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 2.4px;
+        }
+    }
+
+    &__box {
+        border-radius: 17px;
+        border: 1px solid #FF5C00;
+        background: rgba(255, 255, 255, 0.00);
+        padding: 32px 38px 48px 40px;
+    }
+
+    &__info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 10px;
+
+        &_title {
+            color: #FFF;
+            font-family: "Libre Franklin";
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+    }
+
+
+    &__icon {
+        font-size: 30px;
+        color: #F24E1E;
+    }
+
+    &__text {
+        color: #7D7373;
+        font-family: "Libre Franklin";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 530px;
+    }
+}

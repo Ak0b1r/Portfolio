@@ -1,0 +1,85 @@
+.contact {
+    &__title {
+        color: #FFF;
+        font-family: "Libre Franklin";
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 2.4px;
+        margin-bottom: 20px;
+
+        & span {
+            color: #FF5C00;
+            font-family: "Libre Franklin";
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 2.4px;
+        }
+    }
+
+    &__text {
+        color: #FFF;
+        font-family: "Libre Franklin";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 28px;
+    }
+
+
+    &__message {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 40px;
+        row-gap: 20px;
+    }
+
+    &__input,
+    &__content {
+        color: #FF5C00;
+        font-family: "Poppins";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        border: none;
+        border-bottom: 2px solid #555;
+        padding: 14px 20px 5px;
+
+        &::backdrop{
+            background: transparent;
+        }
+
+        &::placeholder{
+            color: #ff5e00c0;
+        }
+    }
+
+    &__content {
+        grid-row: span 2;
+    }
+
+    &__send {
+        margin: 35px 0;
+        width: 430px;
+        color: #FFF;
+        font-family: "Poppins";
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        padding: 5px 0;
+        border-radius: 10px;
+        background: #FF5C00;
+        border: 1px solid #FF5C00;
+        transition: .2s;
+
+        &:hover {
+            color: #FF5C00;
+            background: transparent;
+        }
+    }
+}

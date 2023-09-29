@@ -1,0 +1,75 @@
+.skills {
+    &__title {
+        color: #FFF;
+        font-family: "Libre Franklin";
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 2.4px;
+        margin-bottom: 20px;
+
+        & span {
+            color: #FF5C00;
+            font-family: "Libre Franklin";
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 2.4px;
+        }
+    }
+
+    &__block {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+
+    &__box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    &__info {
+        border-radius: 78px;
+        border: 1px solid #7D7373;
+        padding: 50px 40px 20px 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        transition: .2s;
+
+        &:hover {
+            border: 1px solid #FF5C00;
+        }
+    }
+
+    &__icon {
+        font-size: 78px;
+        color: #F8F8F8;
+    }
+
+    &__progress {
+        color: #FF5C00;
+        font-family: "Libre Franklin";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 1.2px;
+    }
+
+    &__text {
+        color: #FFF;
+        font-family: "Libre Franklin";
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+}

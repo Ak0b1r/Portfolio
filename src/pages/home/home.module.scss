@@ -1,0 +1,56 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+
+    &__introduction {
+        color: #FFF;
+        font-family: "Libre Franklin";
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 2px;
+
+        & span {
+            color: #FF5C00;
+            font-family: "Libre Franklin";
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 2px;
+        }
+    }
+
+    &__title {
+        color: #FFF;
+        font-family: "Libre Franklin";
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 2.4px;
+
+        & span {
+            color: #FF5C00;
+            font-family: "Libre Franklin";
+            font-size: 48px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+            letter-spacing: 2.4px;
+        }
+    }
+
+    &__text {
+        color: #7D7373;
+        font-family: "Libre Franklin";
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        width: 832px;
+        margin-top: 50px;
+    }
+}

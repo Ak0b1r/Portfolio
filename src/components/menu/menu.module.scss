@@ -1,0 +1,22 @@
+.menu {
+    border-radius: 38px;
+    border: 1px solid #FFF;
+    opacity: 0.4;
+    background: #1D1C1D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 35px 10px;
+
+    &__link{
+        font-size: 35px;
+        color: #7D7373;
+        transition: .2s;
+
+        &:hover{
+            color: #FF5C00;
+        }
+    }
+}
